@@ -1,0 +1,78 @@
+/* Full-page */
+
+body {
+	background-color: #EBE0E0;
+	margin: 5px 0 0;
+}
+
+/* Header */
+
+.header-logo-column {
+	display: flex;
+	align-items: center;
+}
+
+.header-name {
+	text-align: right;
+	font: 3em Quicksand, sans-serif;
+	font-weight: 300;
+	margin: 5px;
+}
+
+.header-title {
+	text-align: right;
+	font: 1.25em Quicksand, sans-serif;
+	font-weight: 400;
+	margin: 5px 5px;
+}
+
+/* Center image */
+
+.center-image {
+	padding: 10px 0;
+	margin: 10px 0;
+	border-top: 3px solid #33CCB3;
+	width: 100%;
+}
+
+/* Projects section */
+
+.project {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.center-project {
+	margin: 0 20px;
+}
+
+.projects-heading {
+	margin: 5px 0 10px;
+	font: 2em Quicksand, sans-serif;
+	font-weight: 400;
+}
+
+.project-image {
+	width: 100%;
+}
+
+.project-name {
+	margin: 10px auto 0;
+	font: 2em Quicksand, sans-serif;
+	font-weight: 700;
+}
+
+.project-url {
+	width: 100%;
+	margin: 10px auto;
+	font: .75em Inconsolata, sans-serif;
+	color: #6B382E;
+	word-wrap: break-word;
+	text-align: center;
+	text-decoration: none;
+}
+
+.project-url:hover {
+	text-decoration: underline;
+}
