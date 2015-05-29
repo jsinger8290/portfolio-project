@@ -7,45 +7,59 @@
 	<title>Portfolio</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="css/grid.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
 </head>
 <body>
-	<div class="grid">
-		<div class="row">
-			<div class="col-6 header-logo-column">
-				<img src="http://placehold.it/100x100" alt="portfolio logo">
+	<div class="container">
+		<header>
+			<div class="row">
+				<div class="col-md-6">
+					<img src="http://placehold.it/100x100" alt="portfolio logo">
+				</div>
+				<div class="col-md-6 text-right">
+					<h1 class="header-name">Justin Singer</h1>
+					<p class="header-title">Web Dev</p>
+				</div>
 			</div>
-			<div class="col-6">
-				<h1 class="header-name">Justin Singer</h1>
-				<p class="header-title">Web Dev</p>
+		</header>
+		<div class="row">
+			<div class="col-md-12">
+				<hr>
 			</div>
 		</div>
-
-		<hr>
-
-		<img class="center-image" src="http://placehold.it/1000x500" alt="center image">
-
-		<h1 class="projects-heading">Featured Work</h1>
 		<div class="row">
-			<div class="col-4 project">
-				<img class="project-image" src="http://placehold.it/300x150" alt="resume screenshot">
-				<h2 class="project-name">Resume</h2>
-				<a class="project-url" href="https://github.com/jsinger8290/resume-project">https://github.com/jsinger8290/resume-project</a>
-			</div>
-			<div class="col-4 project center-project">
-				<img class="project-image" src="http://placehold.it/300x150" alt="frog screenshot">
-				<h2 class="project-name">Frogger</h2>
-				<a class="project-url" href="https://github.com/jsinger8290/arcade-game-project">https://github.com/jsinger8290/arcade-game-project</a>
-			</div>
-			<div class="col-4 project">
-				<img class="project-image" src="http://placehold.it/300x150" alt="Map Screenshot">
-				<h2 class="project-name">Map</h2>
-				<a class="project-url" href="https://github.com/jsinger8290/map-project">https://github.com/jsinger8290/map-project</a>
+			<div class="col-md-12">
+				<img class="img-responsive center-block" src="http://placehold.it/1000x500" alt="center image">
 			</div>
 		</div>
+		<section>
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="projects-heading">Featured Work</h1>
+				</div>
+			</div>
+
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img class="img-responsive center-block" src="http://placehold.it/300x150" alt="resume screenshot">
+					<h3 class="project-name">Resume</h2>
+					<a class="project-url" href="https://github.com/jsinger8290/resume-project">https://github.com/jsinger8290/resume-project</a>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive center-block" src="http://placehold.it/300x150" alt="frog screenshot">
+					<h3 class="project-name">Frogger</h2>
+					<a class="project-url" href="https://github.com/jsinger8290/arcade-game-project">https://github.com/jsinger8290/arcade-game-project</a>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive center-block" src="http://placehold.it/300x150" alt="Map Screenshot">
+					<h3 class="project-name">Map</h2>
+					<a class="project-url" href="https://github.com/jsinger8290/map-project">https://github.com/jsinger8290/map-project</a>
+				</div>
+			</div>
+		</section>
 	</div>
 </body>
 </html>
