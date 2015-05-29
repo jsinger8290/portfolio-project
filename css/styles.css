@@ -24,7 +24,7 @@ hr {
 
 /* Header classes */
 
-.header {
+.header-row {
 	display: flex;
 	align-items: center;
 }
