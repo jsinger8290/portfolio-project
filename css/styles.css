@@ -1,14 +1,32 @@
-/* Full-page */
 
-body {
-	background-color: #EBE0E0;
-}
+/* Global tag styles */
 
-/* Header */
-
-.header-name {
+h1 {
 	font: 3em Quicksand, sans-serif;
 	font-weight: 300;
+}
+
+h2 {
+	font: 2em Quicksand, sans-serif;
+	font-weight: 400;
+}
+
+h3 {
+	font: 2em Quicksand, sans-serif;
+	font-weight: 700;
+	margin: 0;
+}
+
+hr {
+	height: 5px;
+	background-color: #c3c6c0;
+}
+
+/* Header classes */
+
+.header {
+	display: flex;
+	align-items: center;
 }
 
 .header-title {
@@ -16,17 +34,10 @@ body {
 	font-weight: 400;
 }
 
+/* Projects classes */
 
-/* Projects section */
-
-.projects-heading {
-	font: 2em Quicksand, sans-serif;
-	font-weight: 400;
-}
-
-.project-name {
-	font: 2em Quicksand, sans-serif;
-	font-weight: 700;
+.project-padding {
+	padding: 0 0 15px;
 }
 
 .project-url {
