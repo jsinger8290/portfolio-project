@@ -1,7 +1,7 @@
 /* Full-page */
 
 body {
-	background-color: #EBE0E0;
+	background-color: #ebe0e0;
 	margin: 5px 0 0;
 }
 
@@ -65,7 +65,7 @@ body {
 	width: 100%;
 	margin: 10px auto;
 	font: .75em Inconsolata, sans-serif;
-	color: #6B382E;
+	color: #6b382e;
 	word-wrap: break-word;
 	text-align: center;
 	text-decoration: none;
