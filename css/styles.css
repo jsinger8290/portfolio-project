@@ -1,5 +1,5 @@
 
-/* Global tag styles */
+/* Tag styles */
 
 h1 {
 	font: 3em Quicksand, sans-serif;
@@ -42,7 +42,7 @@ hr {
 
 .project-url {
 	font: .75em Inconsolata, sans-serif;
-	color: #6B382E;
+	color: #6b382e;
 	word-wrap: break-word;
 	text-decoration: none;
 }
